@@ -1,0 +1,38 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Introducción}{5}%
+\contentsline {section}{\numberline {1.1}Motivación}{5}%
+\contentsline {section}{\numberline {1.2}Planteamiento del problema}{5}%
+\contentsline {section}{\numberline {1.3}Hipótesis}{5}%
+\contentsline {section}{\numberline {1.4}Objetivos}{5}%
+\contentsline {section}{\numberline {1.5}Descripción del documento}{6}%
+\contentsline {chapter}{\numberline {2}Marco teórico}{7}%
+\contentsline {section}{\numberline {2.1}Robots bípedos}{7}%
+\contentsline {section}{\numberline {2.2}Conceptos básicos de visión artifical}{7}%
+\contentsline {section}{\numberline {2.3}Redes neuronales artificiales}{7}%
+\contentsline {section}{\numberline {2.4}Competencia Robocup Humanoid kid size}{7}%
+\contentsline {chapter}{\numberline {3}Sistema de reconocimiento de porterías}{9}%
+\contentsline {section}{\numberline {3.1}Filtros Gaussianos}{9}%
+\contentsline {section}{\numberline {3.2}Detección de bordes}{9}%
+\contentsline {section}{\numberline {3.3}Detección de contornos}{9}%
+\contentsline {section}{\numberline {3.4}Caracterización de formas}{9}%
+\contentsline {section}{\numberline {3.5}Estimación de orientación}{9}%
+\contentsline {chapter}{\numberline {4}Reconocimiento de jugadores}{11}%
+\contentsline {section}{\numberline {4.1}Redes neuronales artificiales}{11}%
+\contentsline {section}{\numberline {4.2}Entrenamiento}{11}%
+\contentsline {section}{\numberline {4.3}Redes neuronales convolucionales}{11}%
+\contentsline {section}{\numberline {4.4}Transferencia de aprendizaje}{11}%
+\contentsline {chapter}{\numberline {5}Implementación}{13}%
+\contentsline {section}{\numberline {5.1}Robots nimbro-op y Darwin-op}{13}%
+\contentsline {section}{\numberline {5.2}Simulador Gazebo}{13}%
+\contentsline {section}{\numberline {5.3}Plataforma ROS}{13}%
+\contentsline {section}{\numberline {5.4}Tarjeta de desarrollo nvidia jetson}{13}%
+\contentsline {chapter}{\numberline {6}Resultados}{15}%
+\contentsline {section}{\numberline {6.1}Detección de porterías}{15}%
+\contentsline {subsection}{\numberline {6.1.1}Resultados en simulación}{15}%
+\contentsline {subsection}{\numberline {6.1.2}Resultados en los robots reales}{15}%
+\contentsline {section}{\numberline {6.2}Detección de otros jugadores}{15}%
+\contentsline {subsection}{\numberline {6.2.1}Resultados en simulación}{15}%
+\contentsline {subsection}{\numberline {6.2.2}Resultados en los robots reales}{15}%
+\contentsline {chapter}{\numberline {7}Discusión}{17}%
+\contentsline {section}{\numberline {7.1}Conclusiones}{17}%
+\contentsline {section}{\numberline {7.2}Trabajo futuro}{17}%
