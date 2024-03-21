@@ -1,4 +1,24 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{erik2012programming}
+J.~Erik~Solem.
+\newblock Programming computer vision with python, 2012.
+
+\bibitem{kajita2014introduction}
+S.~Kajita, H.~Hirukawa, K.~Harada, and K.~Yokoi.
+\newblock {\em Introduction to humanoid robotics}, volume 101.
+\newblock Springer, 2014.
+
+\bibitem{milella2006computer}
+A.~Milella, G.~Reina, R.~Siegwart, et~al.
+\newblock Computer vision methods for improved mobile robot state estimation in
+  challenging terrains.
+\newblock {\em J. Multim.}, 1(7):49--61, 2006.
+
+\bibitem{rayhan2023artificial}
+A.~Rayhan.
+\newblock Artificial intelligence in robotics: From automation to autonomous
+  systems, 2023.
 
 \bibitem{rebaza2007deteccion}
 J.~V. Rebaza.
@@ -13,10 +33,25 @@ F.~Rubio, F.~Valero, and C.~Llopis-Albert.
 \newblock {\em International Journal of Advanced Robotic Systems},
   16(2):1729881419839596, 2019.
 
+\bibitem{russell2016artificial}
+S.~J. Russell and P.~Norvig.
+\newblock {\em Artificial intelligence: a modern approach}.
+\newblock Pearson, 2016.
+
 \bibitem{sadangharn2022acceptance}
 P.~Sadangharn.
 \newblock Acceptance of robots as co-workers: Hotel employees’ perspective.
 \newblock {\em International Journal of Engineering Business Management},
   14:18479790221113621, 2022.
+
+\bibitem{siegwart2011introduction}
+R.~Siegwart, I.~R. Nourbakhsh, and D.~Scaramuzza.
+\newblock {\em Introduction to autonomous mobile robots}.
+\newblock MIT press, 2011.
+
+\bibitem{yang2017stateart}
+X.~Yang, H.~She, H.~Lu, T.~Fukuda, and Y.~Shen.
+\newblock State of the art: bipedal robots for lower limb rehabilitation.
+\newblock {\em Applied Sciences}, 7(11):1182, 2017.
 
 \end{thebibliography}
