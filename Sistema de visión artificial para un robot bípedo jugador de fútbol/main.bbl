@@ -4,6 +4,12 @@
 J.~Erik~Solem.
 \newblock Programming computer vision with python, 2012.
 
+\bibitem{fiedler2019open}
+N.~Fiedler, H.~Brandt, J.~Gutsche, F.~Vahl, J.~Hagge, and M.~Bestmann.
+\newblock An open source vision pipeline approach for robocup humanoid soccer.
+\newblock In {\em RoboCup 2019: Robot World Cup XXIII 23}, pages 376--386.
+  Springer, 2019.
+
 \bibitem{kajita2014introduction}
 S.~Kajita, H.~Hirukawa, K.~Harada, and K.~Yokoi.
 \newblock {\em Introduction to humanoid robotics}, volume 101.
@@ -48,6 +54,11 @@ P.~Sadangharn.
 R.~Siegwart, I.~R. Nourbakhsh, and D.~Scaramuzza.
 \newblock {\em Introduction to autonomous mobile robots}.
 \newblock MIT press, 2011.
+
+\bibitem{szeliski2022computer}
+R.~Szeliski.
+\newblock {\em Computer vision: algorithms and applications}.
+\newblock Springer Nature, 2022.
 
 \bibitem{yang2017stateart}
 X.~Yang, H.~She, H.~Lu, T.~Fukuda, and Y.~Shen.
