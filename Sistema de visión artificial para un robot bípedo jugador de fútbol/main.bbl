@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{chen2013walking}
+B.~Chen, M.~Luo, F.~Guo, and S.~Chen.
+\newblock Walking mechanism and kinematic analysis of humanoid robot.
+\newblock In {\em Proceedings of the 2013 International Conference on Advanced
+  Mechatronic Systems}, pages 491--494. IEEE, 2013.
+
 \bibitem{erik2012programming}
 J.~Erik~Solem.
 \newblock Programming computer vision with python, 2012.
