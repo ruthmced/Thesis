@@ -13,9 +13,14 @@ Para fomentar el desarrollo de robots humanoides existen competencias como la Ro
 
 \section{Planteamiento del problema}
 %se requiere hace un sist de visión que reconozca porterías y otros jugadores usando únicamnete cámaras rgb (se requiere probar en simulación y con un robot real).
-Al tratarse de un partido de fútbol, es fundamental que el robot pueda cumplir tareas como la detección y localización de la portería, así como detectar a los jugadores oponentes para, esquivarlos y llegar al objetivo. Para abordar estos desafíos, es necesario desarrollar un sistema de visión utilizando exclusivamente cámaras RGB, en conformidad con las regulaciones establecidas por la RoboCup.\\ Esta restricción busca equiparar las capacidades del robot humanoide con las de un jugador humano. Sin embargo, el uso exclusivo de cámaras RGB plantea sus propios desafíos, como lidiar con variaciones en la iluminación, especialmente en la pelota blanca, la presencia de objetos de colores similares en el entorno y la dificultad para estimar la profundidad.
+Al tratarse de un partido de fútbol, es fundamental que el robot pueda cumplir tareas como la detección y localización de la portería, así como detectar a los jugadores oponentes para, esquivarlos y llegar al objetivo. Para abordar estos desafíos, es necesario desarrollar un sistema de visión utilizando exclusivamente cámaras RGB, en conformidad con las regulaciones establecidas por la RoboCup.\\ Esta restricción busca equiparar las capacidades del robot humanoide con las de un jugador humano. Sin embargo, el uso exclusivo de cámaras RGB plantea sus propios desafíos, como lidiar con variaciones en la iluminación, especialmente en la pelota blanca, la presencia de objetos de colores similares en el entorno y la dificultad para estimar la profundidad. Esto mismo debe ser probado en simulación y en el robot real.
 
 \section{Hipótesis}
+El presente trabajo está desarrollado con base en las siguientes hipótesis:
+\begin{itemize}
+	\item Al implementar un sistema de visión basado en cámaras RGB se enfrentan desafíos en condiciones de iluminación variable o al haber inferencias visuales significativas, pero estrategias específicas de procesamiento de imágenes perimiten contrarrestar estos efectos adversos.
+	\item Es posible asemejar las capacidades perceptuales humanas con un sistema de visión eficaz y cámaras RGB.
+\end{itemize}
 
 \section{Objetivos}
 
@@ -29,3 +34,4 @@ Desarrollar un sistema de visión artificial para identificar porterías y jugad
     \item Evaluar el desempeño en un ambiente real.
 \end{itemize}
 \section{Descripción del documento}
+La organización de este trabajo es de la siguiente manera: En el capítulo 2 se hace un breve resumen del robot, se  describen conceptos básicos y un
