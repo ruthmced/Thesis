@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{bradski2008learning}
+G.~Bradski and A.~Kaehler.
+\newblock {\em Learning OpenCV: Computer vision with the OpenCV library}.
+\newblock " O'Reilly Media, Inc.", 2008.
+
 \bibitem{chen2013walking}
 B.~Chen, M.~Luo, F.~Guo, and S.~Chen.
 \newblock Walking mechanism and kinematic analysis of humanoid robot.
@@ -15,6 +20,11 @@ N.~Fiedler, H.~Brandt, J.~Gutsche, F.~Vahl, J.~Hagge, and M.~Bestmann.
 \newblock An open source vision pipeline approach for robocup humanoid soccer.
 \newblock In {\em RoboCup 2019: Robot World Cup XXIII 23}, pages 376--386.
   Springer, 2019.
+
+\bibitem{forsyth2002computer}
+D.~A. Forsyth and J.~Ponce.
+\newblock {\em Computer vision: a modern approach}.
+\newblock prentice hall professional technical reference, 2002.
 
 \bibitem{kajita2014introduction}
 S.~Kajita, H.~Hirukawa, K.~Harada, and K.~Yokoi.

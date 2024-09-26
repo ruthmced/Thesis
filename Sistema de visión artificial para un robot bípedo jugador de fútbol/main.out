@@ -12,26 +12,27 @@
 \BOOKMARK [0][-]{chapter.3}{Sistema de reconocimiento de porter\355as}{}% 12
 \BOOKMARK [1][-]{section.3.1}{Filtros Gaussianos}{chapter.3}% 13
 \BOOKMARK [1][-]{section.3.2}{Detecci\363n de bordes}{chapter.3}% 14
-\BOOKMARK [1][-]{section.3.3}{Detecci\363n de contornos}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.4}{Caracterizaci\363n de formas}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.5}{Estimaci\363n de orientaci\363n}{chapter.3}% 17
-\BOOKMARK [0][-]{chapter.4}{Reconocimiento de jugadores}{}% 18
-\BOOKMARK [1][-]{section.4.1}{Redes neuronales artificiales}{chapter.4}% 19
-\BOOKMARK [1][-]{section.4.2}{Entrenamiento}{chapter.4}% 20
-\BOOKMARK [1][-]{section.4.3}{Redes neuronales convolucionales}{chapter.4}% 21
-\BOOKMARK [1][-]{section.4.4}{Transferencia de aprendizaje}{chapter.4}% 22
-\BOOKMARK [0][-]{chapter.5}{Implementaci\363n}{}% 23
-\BOOKMARK [1][-]{section.5.1}{Robots nimbro-op y Darwin-op}{chapter.5}% 24
-\BOOKMARK [1][-]{section.5.2}{Simulador Gazebo}{chapter.5}% 25
-\BOOKMARK [1][-]{section.5.3}{Plataforma ROS}{chapter.5}% 26
-\BOOKMARK [1][-]{section.5.4}{Tarjeta de desarrollo nvidia jetson}{chapter.5}% 27
-\BOOKMARK [0][-]{chapter.6}{Resultados}{}% 28
-\BOOKMARK [1][-]{section.6.1}{Detecci\363n de porter\355as}{chapter.6}% 29
-\BOOKMARK [2][-]{subsection.6.1.1}{Resultados en simulaci\363n}{section.6.1}% 30
-\BOOKMARK [2][-]{subsection.6.1.2}{Resultados en los robots reales}{section.6.1}% 31
-\BOOKMARK [1][-]{section.6.2}{Detecci\363n de otros jugadores}{chapter.6}% 32
-\BOOKMARK [2][-]{subsection.6.2.1}{Resultados en simulaci\363n}{section.6.2}% 33
-\BOOKMARK [2][-]{subsection.6.2.2}{Resultados en los robots reales}{section.6.2}% 34
-\BOOKMARK [0][-]{chapter.7}{Discusi\363n}{}% 35
-\BOOKMARK [1][-]{section.7.1}{Conclusiones}{chapter.7}% 36
-\BOOKMARK [1][-]{section.7.2}{Trabajo futuro}{chapter.7}% 37
+\BOOKMARK [2][-]{subsection.3.2.1}{El Marr-Hildreth Edge Detector}{section.3.2}% 15
+\BOOKMARK [1][-]{section.3.3}{Detecci\363n de contornos}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.4}{Caracterizaci\363n de formas}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.5}{Estimaci\363n de orientaci\363n}{chapter.3}% 18
+\BOOKMARK [0][-]{chapter.4}{Reconocimiento de jugadores}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Redes neuronales artificiales}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{Entrenamiento}{chapter.4}% 21
+\BOOKMARK [1][-]{section.4.3}{Redes neuronales convolucionales}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.4}{Transferencia de aprendizaje}{chapter.4}% 23
+\BOOKMARK [0][-]{chapter.5}{Implementaci\363n}{}% 24
+\BOOKMARK [1][-]{section.5.1}{Robots nimbro-op y Darwin-op}{chapter.5}% 25
+\BOOKMARK [1][-]{section.5.2}{Simulador Gazebo}{chapter.5}% 26
+\BOOKMARK [1][-]{section.5.3}{Plataforma ROS}{chapter.5}% 27
+\BOOKMARK [1][-]{section.5.4}{Tarjeta de desarrollo nvidia jetson}{chapter.5}% 28
+\BOOKMARK [0][-]{chapter.6}{Resultados}{}% 29
+\BOOKMARK [1][-]{section.6.1}{Detecci\363n de porter\355as}{chapter.6}% 30
+\BOOKMARK [2][-]{subsection.6.1.1}{Resultados en simulaci\363n}{section.6.1}% 31
+\BOOKMARK [2][-]{subsection.6.1.2}{Resultados en los robots reales}{section.6.1}% 32
+\BOOKMARK [1][-]{section.6.2}{Detecci\363n de otros jugadores}{chapter.6}% 33
+\BOOKMARK [2][-]{subsection.6.2.1}{Resultados en simulaci\363n}{section.6.2}% 34
+\BOOKMARK [2][-]{subsection.6.2.2}{Resultados en los robots reales}{section.6.2}% 35
+\BOOKMARK [0][-]{chapter.7}{Discusi\363n}{}% 36
+\BOOKMARK [1][-]{section.7.1}{Conclusiones}{chapter.7}% 37
+\BOOKMARK [1][-]{section.7.2}{Trabajo futuro}{chapter.7}% 38

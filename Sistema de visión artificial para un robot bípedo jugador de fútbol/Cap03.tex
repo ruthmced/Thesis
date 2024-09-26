@@ -1,11 +1,18 @@
 \chapter{Sistema de reconocimiento de porterías}\label{sec:porteria}
 
 \section{Filtros Gaussianos}
-
+Las imágenes típicamente tienen la propiedad de que el valor de un pixel usualmente es similar al de su vecino. Así mismo es común que contengan componentes de ruido, es decir, variaciones no deseadas en la intensidad de los pixeles, como números aleatorios muy pequeños o pixeles "muertos". Es natural el tratar de reducir los efectos de este ruido reemplazando cada pixel con un promedio ponderado en el valor de los pixeles vecinos, este proceso se conoce como "difuminado".  El modelo más común para representarlo es el ruido gaussiano. Esto se debe a que sigue una distribución normal, lo que facilita su análisis matemático. Al patrón de pesos usado por un filtro lineal (como el filtro gaussiano) se le conoce usualmente como el "kernel" del filtro. Y el proceso de aplicar el filtro es referido como convolución.\cite{forsyth2002computer} Entonces, para difuminar o desenfocar una imagen con un filtro gaussiano, esta se convoluciona con el modelo del kernel Gaussiano simétrico de 2 dimensiones, 
+\begin{equation}
+\label{eq:pythagorean}
+f(m,n)=\frac{1}{2\pi \sigma^2}exp[-\frac{m^2+n^2}{2\sigma^2} ]
+\end{equation}
 \section{Detección de bordes}
 %qué es detecc de bord, canny fig y ejemplo con los resultados de ahorita
-La detección de bordes es importante en el área de procesamiento de imágenes, ya que facilita diversas tareas. Consiste en el análisis de los cambios bruscos en la intensidad de los píxeles para obtener información precisa sobre las regiones de interés.\cite{rebaza2007deteccion} El algoritmo de Canny es usado para detectar todos los bordes que puedan ocurrir en una imagen y es considerado uno de los mejores métodos de detección de contornos 
+%A second use for image filtering is to locate places in the image where the intensity
+%changes abruptly.
+La detección de bordes es importante en el área de procesamiento de imágenes, ya que facilita diversas tareas. Consiste en el análisis de los cambios bruscos en la intensidad de los píxeles para obtener información precisa sobre las regiones de interés.\cite{rebaza2007deteccion} El algoritmo de Canny es usado para detectar todos los bordes que puedan ocurrir en una imagen y es considerado uno de los mejores métodos de detección de contornos \\
 
+\subsection{El Marr-Hildreth Edge Detector\\}
 \section{Detección de contornos}
 
 \section{Caracterización de formas}
