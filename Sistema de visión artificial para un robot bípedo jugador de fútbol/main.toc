@@ -12,28 +12,28 @@
 \contentsline {section}{\numberline {2.4}Competencia Robocup Humanoid kid size}{10}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Sistema de reconocimiento de porterías}{11}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Filtros Gaussianos}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Detección de bordes}{11}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}El Marr-Hildreth Edge Detector\\}{12}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}Detección de contornos}{12}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Caracterización de formas}{12}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Estimación de orientación}{12}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Reconocimiento de jugadores}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Redes neuronales artificiales}{13}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Entrenamiento}{13}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Redes neuronales convolucionales}{13}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Transferencia de aprendizaje}{13}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Implementación}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Robots nimbro-op y Darwin-op}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Simulador Gazebo}{15}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Plataforma ROS}{15}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Tarjeta de desarrollo nvidia jetson}{15}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Resultados}{17}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Detección de porterías}{17}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Resultados en simulación}{17}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Resultados en los robots reales}{17}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}Detección de otros jugadores}{17}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Resultados en simulación}{17}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Resultados en los robots reales}{17}{subsection.6.2.2}%
-\contentsline {chapter}{\numberline {7}Discusión}{19}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Conclusiones}{19}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Trabajo futuro}{19}{section.7.2}%
+\contentsline {section}{\numberline {3.2}Detección de bordes}{13}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}El Marr-Hildreth Edge Detector\\}{13}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Detección de contornos}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Caracterización de formas}{13}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Estimación de orientación}{13}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Reconocimiento de jugadores}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Redes neuronales artificiales}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Entrenamiento}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Redes neuronales convolucionales}{15}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Transferencia de aprendizaje}{15}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Implementación}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Robots nimbro-op y Darwin-op}{17}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Simulador Gazebo}{17}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Plataforma ROS}{17}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Tarjeta de desarrollo nvidia jetson}{17}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Resultados}{19}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Detección de porterías}{19}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Resultados en simulación}{19}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Resultados en los robots reales}{19}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Detección de otros jugadores}{19}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Resultados en simulación}{19}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Resultados en los robots reales}{19}{subsection.6.2.2}%
+\contentsline {chapter}{\numberline {7}Discusión}{21}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Conclusiones}{21}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Trabajo futuro}{21}{section.7.2}%
