@@ -12,7 +12,7 @@
 \BOOKMARK [0][-]{chapter.3}{Sistema de reconocimiento de porter\355as}{}% 12
 \BOOKMARK [1][-]{section.3.1}{Filtros Gaussianos}{chapter.3}% 13
 \BOOKMARK [1][-]{section.3.2}{Detecci\363n de bordes}{chapter.3}% 14
-\BOOKMARK [2][-]{subsection.3.2.1}{El Marr-Hildreth Edge Detector}{section.3.2}% 15
+\BOOKMARK [2][-]{subsection.3.2.1}{M\351todos basados en gradientes}{section.3.2}% 15
 \BOOKMARK [1][-]{section.3.3}{Detecci\363n de contornos}{chapter.3}% 16
 \BOOKMARK [1][-]{section.3.4}{Caracterizaci\363n de formas}{chapter.3}% 17
 \BOOKMARK [1][-]{section.3.5}{Estimaci\363n de orientaci\363n}{chapter.3}% 18

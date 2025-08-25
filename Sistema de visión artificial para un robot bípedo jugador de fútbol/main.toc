@@ -13,7 +13,7 @@
 \contentsline {chapter}{\numberline {3}Sistema de reconocimiento de porterías}{11}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Filtros Gaussianos}{11}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Detección de bordes}{13}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}El Marr-Hildreth Edge Detector\\}{13}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Métodos basados en gradientes\\}{13}{subsection.3.2.1}%
 \contentsline {section}{\numberline {3.3}Detección de contornos}{13}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Caracterización de formas}{13}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Estimación de orientación}{13}{section.3.5}%

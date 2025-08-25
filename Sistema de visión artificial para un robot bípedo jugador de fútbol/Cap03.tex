@@ -1,7 +1,7 @@
 \chapter{Sistema de reconocimiento de porterías}\label{sec:porteria}
 
 \section{Filtros Gaussianos}
-Las imágenes típicamente tienen la propiedad de que el valor de un pixel usualmente es similar al de su vecino. Así mismo es común que contengan componentes de ruido, es decir, variaciones no deseadas en la intensidad de los pixeles, como números aleatorios muy pequeños o pixeles "muertos". Es natural el tratar de reducir los efectos de este ruido reemplazando cada pixel con un promedio ponderado en el valor de los pixeles vecinos, este proceso se conoce como "difuminado".  El modelo más común para representarlo es el ruido gaussiano. Esto se debe a que sigue una distribución normal, lo que facilita su análisis matemático. Al patrón de pesos usado por un filtro lineal (como el filtro gaussiano) se le conoce usualmente como el "kernel" del filtro. Y el proceso de aplicar el filtro es referido como convolución.\cite{forsyth2002computer} Entonces, para difuminar o desenfocar una imagen con un filtro gaussiano, esta se convoluciona con el modelo del kernel Gaussiano simétrico de 2 dimensiones, 
+Las imágenes típicamente tienen la propiedad de que el valor de un pixel usualmente es similar al de su vecino. Así mismo es común que contengan componentes de ruido, es decir, variaciones no deseadas en la intensidad de los pixeles, como números aleatorios muy pequeños o pixeles "muertos". Es natural el tratar de reducir los efectos de este ruido reemplazando cada pixel con un promedio ponderado en el valor de los pixeles vecinos, este proceso se conoce como "difuminado" o "desenfoque".  El modelo más común para representarlo es el ruido gaussiano. Esto se debe a que sigue una distribución normal, lo que facilita su análisis matemático. Al patrón de pesos usado por un filtro lineal (como el filtro gaussiano) se le conoce usualmente como el "kernel" del filtro. Y el proceso de aplicar el filtro es referido como convolución.\cite{forsyth2002computer} Entonces, para difuminar o desenfocar una imagen con un filtro gaussiano, esta se convoluciona con el modelo del kernel Gaussiano simétrico de 2 dimensiones, 
 \begin{equation}
 \label{eq:pythagorean}
 f(m,n)=\frac{1}{2\pi \sigma^2}exp[-\frac{m^2+n^2}{2\sigma^2} ]
@@ -55,11 +55,20 @@ Al final se obtiene una imagen resultante donde cada pixel está representado po
 %qué es detecc de bord, canny fig y ejemplo con los resultados de ahorita
 %A second use for image filtering is to locate places in the image where the intensity
 %changes abruptly.
-La detección de bordes es importante en el área de procesamiento de imágenes, ya que facilita diversas tareas. Consiste en el análisis de los cambios bruscos en la intensidad de los píxeles para obtener información precisa sobre las regiones de interés.\cite{rebaza2007deteccion} El algoritmo de Canny es usado para detectar todos los bordes que puedan ocurrir en una imagen y es considerado uno de los mejores métodos de detección de contornos \\
+La detección de bordes es importante en el área de procesamiento de imágenes, ya que facilita diversas tareas. Consiste en el análisis de los cambios bruscos en la intensidad de los píxeles para obtener información precisa sobre las regiones de interés.\cite{rebaza2007deteccion} Dada una imagen, como la Figura \ref{fig:sigma}, ¿cómo se pueden encontrar los bordes de interés o destacados?. Si alguien pidiera dibujar los bordes de los objetos, ¿cuáles serían trazados?. Bien, aunque ya se mencionó de forma cualitativa cuándo ocurren los bordes, lograr una segmentación de la imágen en regiones coherentes es una tarea complicada, así que, frecuentemente se prefiere detectar los bordes usando solamente información local.\cite{szeliski2022computer}
+Desde el punto de vista matemático, un borde puede definirse como una ubicación con un cambio rápido en la intensidad o el color.
+\\
+\subsection{Métodos basados en gradientes\\}
+Una forma matemática de definir la pendiente y dirección de una superficie es con su gradiente,
+\begin{equation}
+\label{eq:gradient}
+J(x)=\nabla I(x)= (\frac{\partial I}{\partial x}, \frac{\partial I}{\partial y}) (x). 
+\end{equation}
+El vector gradiente apunta en la dirección de mayor ascenso en la intensidad de la imagen. Su magnitud indica la fuerza de la variación, mientras que su orientación es perpendicular al contorno local.
+Uno de los detectores más eficaces y ampliamente utilizados es el detector de bordes de Canny, que ofrece un enfoque de mpultiples etapas para detectar bordes de forma rsistente al ruido y captura contornos significativos.
+El algoritmo de detector de bordes de Canny comienza con el suavizado de la imagen con un filtro Gaussiano para suprimir el ruido y reducir el contenido de alta frecuencia. Después de este paso, la imagen se convoluciona con filtros de derivada horizontal y vertical
 
-\subsection{El Marr-Hildreth Edge Detector\\}
 \section{Detección de contornos}
-
 \section{Caracterización de formas}
 Los momentos de Hu, 
 
