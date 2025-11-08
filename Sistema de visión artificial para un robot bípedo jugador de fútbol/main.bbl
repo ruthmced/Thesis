@@ -1,89 +1,20 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
-\bibitem{bradski2008learning}
-G.~Bradski and A.~Kaehler.
-\newblock {\em Learning OpenCV: Computer vision with the OpenCV library}.
-\newblock " O'Reilly Media, Inc.", 2008.
+\bibitem{guo2022attention}
+M.-H. Guo, T.-X. Xu, J.-J. Liu, Z.-N. Liu, P.-T. Jiang, T.-J. Mu, S.-H. Zhang,
+  R.~R. Martin, M.-M. Cheng, and S.-M. Hu.
+\newblock Attention mechanisms in computer vision: A survey.
+\newblock {\em Computational visual media}, 8(3):331--368, 2022.
 
-\bibitem{chen2013walking}
-B.~Chen, M.~Luo, F.~Guo, and S.~Chen.
-\newblock Walking mechanism and kinematic analysis of humanoid robot.
-\newblock In {\em Proceedings of the 2013 International Conference on Advanced
-  Mechatronic Systems}, pages 491--494. IEEE, 2013.
+\bibitem{khan2022transformers}
+S.~Khan, M.~Naseer, M.~Hayat, S.~W. Zamir, F.~S. Khan, and M.~Shah.
+\newblock Transformers in vision: A survey.
+\newblock {\em ACM computing surveys (CSUR)}, 54(10s):1--41, 2022.
 
-\bibitem{erik2012programming}
-J.~Erik~Solem.
-\newblock Programming computer vision with python, 2012.
-
-\bibitem{fiedler2019open}
-N.~Fiedler, H.~Brandt, J.~Gutsche, F.~Vahl, J.~Hagge, and M.~Bestmann.
-\newblock An open source vision pipeline approach for robocup humanoid soccer.
-\newblock In {\em RoboCup 2019: Robot World Cup XXIII 23}, pages 376--386.
-  Springer, 2019.
-
-\bibitem{forsyth2002computer}
-D.~A. Forsyth and J.~Ponce.
-\newblock {\em Computer vision: a modern approach}.
-\newblock prentice hall professional technical reference, 2002.
-
-\bibitem{kajita2014introduction}
-S.~Kajita, H.~Hirukawa, K.~Harada, and K.~Yokoi.
-\newblock {\em Introduction to humanoid robotics}, volume 101.
-\newblock Springer, 2014.
-
-\bibitem{milella2006computer}
-A.~Milella, G.~Reina, R.~Siegwart, et~al.
-\newblock Computer vision methods for improved mobile robot state estimation in
-  challenging terrains.
-\newblock {\em J. Multim.}, 1(7):49--61, 2006.
-
-\bibitem{prince2012computer}
-S.~J. Prince.
-\newblock {\em Computer vision: models, learning, and inference}.
-\newblock Cambridge University Press, 2012.
-
-\bibitem{rayhan2023artificial}
-A.~Rayhan.
-\newblock Artificial intelligence in robotics: From automation to autonomous
-  systems, 2023.
-
-\bibitem{rebaza2007deteccion}
-J.~V. Rebaza.
-\newblock Detecci{\'o}n de bordes mediante el algoritmo de canny.
-\newblock {\em Escuela Acad{\'e}mico Profesional di Inform{\'a}tica.
-  Universidad Nacional de Trujillo}, 4, 2007.
-
-\bibitem{rubio2019review}
-F.~Rubio, F.~Valero, and C.~Llopis-Albert.
-\newblock A review of mobile robots: Concepts, methods, theoretical framework,
-  and applications.
-\newblock {\em International Journal of Advanced Robotic Systems},
-  16(2):1729881419839596, 2019.
-
-\bibitem{russell2016artificial}
-S.~J. Russell and P.~Norvig.
-\newblock {\em Artificial intelligence: a modern approach}.
-\newblock Pearson, 2016.
-
-\bibitem{sadangharn2022acceptance}
-P.~Sadangharn.
-\newblock Acceptance of robots as co-workers: Hotel employees’ perspective.
-\newblock {\em International Journal of Engineering Business Management},
-  14:18479790221113621, 2022.
-
-\bibitem{siegwart2011introduction}
-R.~Siegwart, I.~R. Nourbakhsh, and D.~Scaramuzza.
-\newblock {\em Introduction to autonomous mobile robots}.
-\newblock MIT press, 2011.
-
-\bibitem{szeliski2022computer}
-R.~Szeliski.
-\newblock {\em Computer vision: algorithms and applications}.
-\newblock Springer Nature, 2022.
-
-\bibitem{yang2017stateart}
-X.~Yang, H.~She, H.~Lu, T.~Fukuda, and Y.~Shen.
-\newblock State of the art: bipedal robots for lower limb rehabilitation.
-\newblock {\em Applied Sciences}, 7(11):1182, 2017.
+\bibitem{vaswani2017attention}
+A.~Vaswani, N.~Shazeer, N.~Parmar, J.~Uszkoreit, L.~Jones, A.~N. Gomez,
+  {\L}.~Kaiser, and I.~Polosukhin.
+\newblock Attention is all you need.
+\newblock {\em Advances in neural information processing systems}, 30, 2017.
 
 \end{thebibliography}
